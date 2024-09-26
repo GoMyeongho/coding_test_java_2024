@@ -2,7 +2,7 @@ package Problem2_timeReform;
 
 import java.util.Scanner;
 
-public class Solution {
+public class Solution2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] time = sc.nextLine().split(":");

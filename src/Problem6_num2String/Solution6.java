@@ -2,7 +2,7 @@ package Problem6_num2String;
 
 import java.util.Scanner;
 
-public class Solution {
+public class Solution6 {
     public static void main(String[] args) {
         String[] areas = {"","서울","경기","인천","수원"};
         Scanner sc = new Scanner(System.in);
