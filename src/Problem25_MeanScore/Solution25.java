@@ -11,7 +11,7 @@ public class Solution25 {
             if (temp < 40) temp = 40;
             sum += temp;
         }
-        System.out.println(sum/5)
+        System.out.println(sum/5);
     }
 
 }
