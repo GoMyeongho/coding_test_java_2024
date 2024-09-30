@@ -8,20 +8,20 @@ public class Solution27 {
         String word = sc.nextLine();
         String upperWord = word.toUpperCase();
         String lowerWord = word.toLowerCase();
-        String wordArranged = "";
+        String wordSwapped = "";
         char temp, upperTemp, lowerTemp;
         for (int i = 0; i < word.length(); i++){
             temp = word.charAt(i);
             upperTemp = upperWord.charAt(i);
             lowerTemp = lowerWord.charAt(i);
             if (temp == upperTemp) {
-                wordArranged += lowerTemp;
+                wordSwapped += lowerTemp;
             }
             else {
-                wordArranged += upperTemp;
+                wordSwapped += upperTemp;
             }
         }
-        System.out.println(wordArranged);
+        System.out.println(wordSwapped);
     }
 }
 
