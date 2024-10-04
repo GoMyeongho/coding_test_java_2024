@@ -13,7 +13,7 @@ public class Solution43 {
             if (length[0] == 0 && length[1] == 0 && length[2] == 0 ) break;
             Arrays.sort(length);
             int a = length[0], b = length[1], c = length[2];
-            if ( c* c == a * a + b * b) System.out.println("right");
+            if ( c * c == a * a + b * b) System.out.println("right");
             else System.out.println("wrong");
 
         }
