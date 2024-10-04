@@ -10,6 +10,6 @@ public class Solution40 {
          int c = sc.nextInt();
          int profit = c - b;
          if (profit <= 0) System.out.println(-1);
-         else
+         else System.out.println(a/profit + 1);
     }
 }
